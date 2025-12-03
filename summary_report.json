@@ -1,0 +1,55 @@
+{
+  "project": "Advanced Time Series Forecasting \u2014 synthetic dataset + LSTM",
+  "dataset": {
+    "n_points": 5000,
+    "n_features": 4,
+    "input_len": 60,
+    "horizon": 10,
+    "file": "synthetic_multivariate.csv"
+  },
+  "best_hyperparams": {
+    "n_units": 128,
+    "n_layers": 2,
+    "dropout": 0.3,
+    "lr": 0.001,
+    "batch_size": 32
+  },
+  "test_metrics": {
+    "rmse_per_horizon": [
+      0.5412021963408656,
+      0.5593662375801661,
+      0.533902550890319,
+      0.5592954035591355,
+      0.5439355323584166,
+      0.5319616838004425,
+      0.5364406222445536,
+      0.5752259249009631,
+      0.5658997845262911,
+      0.5613121539603255
+    ],
+    "mae_per_horizon": [
+      0.4332302188212115,
+      0.44343419201007667,
+      0.427660941906963,
+      0.4462046113180993,
+      0.4306334483845214,
+      0.4220728086820219,
+      0.42621109623113274,
+      0.45781426608330655,
+      0.45337463289187735,
+      0.4476821397320008
+    ],
+    "rmse_avg": 0.5508542090161479,
+    "mae_avg": 0.43883183560612116
+  },
+  "saved_outputs_dir": "/content/forecast_outputs",
+  "plots": [
+    "series_preview.png",
+    "test_pred_0.png",
+    "test_pred_1.png",
+    "test_pred_2.png",
+    "test_pred_3.png",
+    "test_pred_4.png",
+    "shap_feature_importance_h0.png"
+  ]
+}

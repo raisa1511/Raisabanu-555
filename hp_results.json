@@ -1,0 +1,68 @@
+[
+  {
+    "hp": {
+      "n_units": 128,
+      "n_layers": 2,
+      "dropout": 0.3,
+      "lr": 0.001,
+      "batch_size": 32
+    },
+    "val_loss": 0.42486366629600525,
+    "model_path": "/content/forecast_outputs/model_hp_3.keras"
+  },
+  {
+    "hp": {
+      "n_units": 64,
+      "n_layers": 3,
+      "dropout": 0.2,
+      "lr": 0.0001,
+      "batch_size": 32
+    },
+    "val_loss": 0.43312641978263855,
+    "model_path": "/content/forecast_outputs/model_hp_4.keras"
+  },
+  {
+    "hp": {
+      "n_units": 128,
+      "n_layers": 1,
+      "dropout": 0.25,
+      "lr": 0.0005,
+      "batch_size": 64
+    },
+    "val_loss": 0.43960633873939514,
+    "model_path": "/content/forecast_outputs/model_hp_6.keras"
+  },
+  {
+    "hp": {
+      "n_units": 64,
+      "n_layers": 2,
+      "dropout": 0.2,
+      "lr": 0.0005,
+      "batch_size": 64
+    },
+    "val_loss": 0.4605162739753723,
+    "model_path": "/content/forecast_outputs/model_hp_2.keras"
+  },
+  {
+    "hp": {
+      "n_units": 32,
+      "n_layers": 2,
+      "dropout": 0.15,
+      "lr": 0.0003,
+      "batch_size": 128
+    },
+    "val_loss": 0.5003489851951599,
+    "model_path": "/content/forecast_outputs/model_hp_5.keras"
+  },
+  {
+    "hp": {
+      "n_units": 32,
+      "n_layers": 1,
+      "dropout": 0.1,
+      "lr": 0.001,
+      "batch_size": 64
+    },
+    "val_loss": 0.503963053226471,
+    "model_path": "/content/forecast_outputs/model_hp_1.keras"
+  }
+]
